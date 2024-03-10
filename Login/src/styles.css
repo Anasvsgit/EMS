@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+
+body{
+    background-image: url('https://as2.ftcdn.net/v2/jpg/06/46/75/91/1000_F_646759192_a1Q5y6uXapm0FYZJmnGEJmocR07ScB56/https/as2.ftcdn.net/v2/jpg/06/46/75/91/1000_F_646759192_a1Q5y6uXapm0FYZJmnGEJmocR07ScB56.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

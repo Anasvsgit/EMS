@@ -1,0 +1,12 @@
+<app-salary [employees]="employees"></app-salary>
+<app-department [employees]="employees"></app-department>
+<app-leave [employees]="employees"></app-leave>
+
+<h1>Employee Management</h1>
+<div *ngFor="let employee of employees">
+  <p>{{ employee.name }}</p>
+  <p>{{ employee.gender }}</p>
+  <p>{{ employee.age }}</p>
+  <p>{{ employee.contact }}</p>
+  <p>{{ employee.mail }}</p>
+</div>
