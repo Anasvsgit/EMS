@@ -1,0 +1,26 @@
+<h1>Employee List</h1>
+<div *ngIf="employees && employees.length > 0">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Contact</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.gender }}</td>
+        <td>{{ employee.age }}</td>
+        <td>{{ employee.contact }}</td>
+        <td>{{ employee.mail }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div *ngIf="employees && employees.length === 0">
+  <p>No employees found.</p>
+</div>

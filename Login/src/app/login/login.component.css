@@ -1,0 +1,10 @@
+.background-image {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/06/46/75/91/1000_F_646759192_a1Q5y6uXapm0FYZJmnGEJmocR07ScB56.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+html,
+body{
+    height: 100%;
+    margin: 0;
+}
